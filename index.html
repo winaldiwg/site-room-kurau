@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SiteRoom Admin | Sistem Manajemen Kamar</title>
+  <style>
+    /* Mengatur agar halaman memenuhi seluruh layar tanpa scrollbar ganda */
+    * { 
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box; 
+    }
+    html, body { 
+      width: 100%; 
+      height: 100%; 
+      overflow: hidden; 
+      background: #f8fafc; 
+    }
+    /* Membungkus dan menggeser iframe ke atas untuk menutupi/memotong banner Google */
+    iframe {
+      position: fixed;
+      top: -28px; /* Menggeser area atas layar sebesar 28px agar banner Google tersembunyi */
+      left: 0;
+      width: 100%;
+      height: calc(100vh + 28px); /* Menambah tinggi agar bagian bawah tidak terpotong */
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Ganti src di bawah ini dengan URL Web App Apps Script milik Anda -->
+  <iframe src="https://script.google.com/macros/s/AKfycbyypbcDiWcO2ziCBN2oQ9iLxYKBZgvpXo-u7G9vDG3BCIt0vNQXsuAyRIDalkz5_et1YQ/exec" allow="clipboard-read; clipboard-write"></iframe>
+</body>
+</html>
